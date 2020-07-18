@@ -1,0 +1,132 @@
+body {
+  font-family: 'Merriweather', serif;
+  margin: 0;
+  text-align: center;
+}
+
+.top-container {
+  background-color: #EAF6F6;
+  padding-top: 125px;
+  position: relative;
+}
+
+h1 {
+  font-family: "Sacramento", cursive;
+  font-size: 562.5%;
+  margin: 50px auto 0 auto;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  margin-top: 20px;
+  color: #66BFBF;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 50px auto 200px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+
+.bottom-container {
+  background-color: #66BFBF;
+  margin-top: 80px;
+  padding: 50px;
+  padding-bottom: 30px;
+}
+.pro {
+  text-decoration: underline;
+}
+
+.bottom-cloud {
+  bottom: 300px;
+  left: 26%;
+  position: absolute;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 26%;
+  top: 70px;
+}
+
+a {
+  color: #11999E;
+}
+
+.java-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.appdev-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.personal-description {
+  width: 30%;
+  margin: 50px auto;
+}
+
+hr {
+  height: 0;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 10px;
+  color: #EAF6F6;
+  width: 5%;
+  margin: 80px auto;
+}
+
+.contactme-message {
+  margin: 40px auto;
+}
+
+.copyright {
+  color: white;
+  font-size: 0.75rem;
+  margin-top: 50px;
+}
+
+a {
+  margin: auto 30px;
+  text-decoration: none;
+}
+
+.contact-btn {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 8px;
+  color: #FFFFFF;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px;
+  background-color: #75C1C4;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.contact-btn:hover {
+  background: #A2A9A9;
+  border: solid #BECDE3 1px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 9px;
+  text-decoration: none;
+}
